@@ -1,6 +1,6 @@
 {
   "name": "node-jsonp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "jsonp client for Node.js",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,8 @@
   "author": "ngot",
   "license": "MIT",
   "dependencies": {
-    "debug": "~2.2.0",
-    "request": "~2.63.0",
-    "superagent": "~1.4.0"
+    "debug": "^2.6.9",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "co-mocha": "~1.1.2",
@@ -25,6 +24,10 @@
     "should": "~7.1.0",
     "standard": "5",
     "supertest": "~1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngot/node-jsonp.git"
   },
   "standard": {
     "global": [
